@@ -34,3 +34,17 @@ var add4Rst = add4(10, 10) //result is 30
 var add4Rst2 = add4(10, 10, 50) //result is 70
 console.log(add4Rst);
 console.log(add4Rst2);
+
+
+console.log("============== Function with specify return type ==============");
+var add5 = (a:number, b:number):number =>{  //return number
+     return a + b
+};
+
+var add6 = (a:number, b:number):void =>{  // return noting
+    console.log(a+b);
+}
+
+var add5Rst = add5(1,2) //result is 3
+console.log(add5Rst);
+add6(5, 2) //log will print 7
