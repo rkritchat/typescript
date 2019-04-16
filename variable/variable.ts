@@ -1,12 +1,17 @@
 var a:number
 var b:string
 var c:boolean
+var d:any
 
 
 //Valid in typescritp
 a = 10
 b = 'test'
 c = true
+
+//d type is 'any' then we can assign any value witout eror
+d = 10
+d = 'as'
 
 //Invalid in tpye script but can compile to javascript, *compile with warinning
 //a = 'test'
