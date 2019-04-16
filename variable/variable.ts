@@ -12,3 +12,6 @@ c = true
 //a = 'test'
 
 
+//Implicit typing
+var z = 10  //Do this equals z:number = 10
+//z = 'test'  will be error because the first value assing to z is type number then z is type number
