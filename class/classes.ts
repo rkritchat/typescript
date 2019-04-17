@@ -15,7 +15,7 @@ class Persion2{
 
 class Persion3{
     /**
-     * This way is short way to create constructor with declare varaible
+     * This way is short way to create constructor with declare varaible.
      * This is equals with classPersion2
      * @param firstName 
      * @param lastName 
